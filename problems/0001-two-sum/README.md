@@ -3,7 +3,7 @@ id: 1
 slug: two-sum
 difficulty: Easy
 topics: [junior, array, hash-table]
-first_solved: 2026-10-05
+first_solved: 2026-09-06
 attempts: 1
 confidence: 1
 ---
@@ -23,8 +23,8 @@ https://leetcode.com/problems/two-sum/description/
 
 ## 計算量
 
-solve: Time: O(n²) / Space: O(n)
-refactor: Time: O(n) / Space: O(n)
+* solve: Time: O(n²) / Space: O(n)
+* refactor: Time: O(n) / Space: O(n)
 
 ## なぜ最初に思いつかなかったか
 
