@@ -1,20 +1,13 @@
 [project]
 name = "leetcode"
 version = "0.1.0"
-description = "Add your description here"
+description = "LeetCode practice for cloud/platform engineering interviews"
 readme = "README.md"
-authors = [
-    { name = "rokkakudev", email = "dev_free_prog@yahoo.co.jp" }
-]
 requires-python = ">=3.14"
 dependencies = []
 
-[project.scripts]
-leetcode = "leetcode:main"
-
-[build-system]
-requires = ["uv_build>=0.12.10,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
 
 [dependency-groups]
 dev = [
