@@ -59,6 +59,8 @@
 
 ```bash
 uv run pytest                          # テスト実行
+uv run ruff check .                    # lint
+uv run ruff format .                   # フォーマット
 uv run python scripts/new.py 146 lru-cache Medium
 ```
 

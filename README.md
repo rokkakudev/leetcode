@@ -20,6 +20,8 @@ scripts/    # 雛形生成・索引生成ツール（問題数に応じて段階
 
 ```bash
 uv run pytest
+uv run ruff check .
+uv run ruff format .
 ```
 
 ## 進捗

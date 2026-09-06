@@ -22,8 +22,15 @@ https://leetcode.com/problems/two-sum/description/
 * なければ `nums` の評価を+1する。
 
 ## 計算量
-Time: 0ms
+
+solve: Time: O(n²) / Space: O(n)
+refactor: Time: O(n) / Space: O(n)
 
 ## なぜ最初に思いつかなかったか
+
+1. ファイル冒頭に `from typing import List` をつけ忘れた
+2. `nums[i+1:]` で配列で差分を探索する方式から、ハッシュマップを使って1回で探索する形式に更新した。
+    * この記法をそもそも知らなかった
+3. 計算量の書き方をそもそも間違っていた
 
 ## 類題
